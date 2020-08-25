@@ -5,8 +5,14 @@ export const Container = styled.div`
   height: 100%;
 
   .left-column,
-  .right-column {
+  .right-column,
+  .ad-banner {
     display: none;
+  }
+
+  > span {
+    margin-top: 48px;
+    display: flex;
   }
 
   @media (min-width: 1180px) {
@@ -15,9 +21,14 @@ export const Container = styled.div`
       margin: 0 30px;
       justify-content: center;
     }
+    > span {
+      margin-top: 52px;
+      padding: 8px 0;
+    }
 
     .left-column,
-    .right-column {
+    .right-column,
+    .ad-banner {
       display: unset;
     }
 

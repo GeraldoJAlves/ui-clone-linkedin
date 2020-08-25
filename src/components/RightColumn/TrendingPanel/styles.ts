@@ -1,6 +1,11 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Container = styled.div`
+  &:last-child {
+    position: sticky;
+    top: 64px;
+  }
+
   > div {
     padding: 12px;
 

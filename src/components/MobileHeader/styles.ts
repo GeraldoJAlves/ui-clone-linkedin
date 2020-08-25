@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 import { FiMessageSquare } from "react-icons/fi";
 
-export const Container = styled.div`
+export const Container = styled.header`
   display: flex;
   background: var(--color-link);
   justify-content: space-between;

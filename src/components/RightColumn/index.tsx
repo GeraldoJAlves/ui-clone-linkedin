@@ -9,6 +9,8 @@ const RightColumn: React.FC = () => {
     <Container className="right-column">
       <TrendingPanel />
       <TrendingPanel />
+      <TrendingPanel />
+      <TrendingPanel />
     </Container>
   );
 };
