@@ -1,0 +1,24 @@
+import React from 'react';
+
+import { Container } from './styles';
+import LeftColumn from '../LeftColumn';
+import RightColumn from '../RightColumn';
+import MiddleColumn from '../MiddleColumn';
+import MobileHeader from '../MobileHeader';
+import DesktopHeader from '../DesktopHeader';
+
+const Layout: React.FC = () => {
+  return (
+    <Container>
+      <MobileHeader />
+      <DesktopHeader />
+      <main>
+        <LeftColumn />
+        <MiddleColumn />
+        <RightColumn />
+      </main>
+    </Container>
+  );
+}
+
+export default Layout;
