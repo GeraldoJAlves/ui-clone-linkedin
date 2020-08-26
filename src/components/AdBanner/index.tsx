@@ -1,18 +1,12 @@
-import React from 'react';
+import React from "react";
 
-import { Container } from './styles';
+import { Container } from "./styles";
 
-const AdBanner: React.FC<LoadingProps> = ({isLoading}) => {
+const AdBanner: React.FC = () => {
   return (
     <Container className="ad-banner">
-      {isLoading ? (
-        ''
-      ):(
-        <>
-        <span>Rocketseat - </span>
-        Interface reproduzida em busca do próximo nível.
-        </>
-      )}
+      <span>Rocketseat - </span>
+      Interface reproduzida em busca do próximo nível.
     </Container>
   );
 };
