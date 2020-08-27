@@ -11,7 +11,7 @@ UI Clone - LinkedIn Feed
 ## Starting Dev Environment
 
 1. Run `npm install` or `yarn install`.<br />
-2. Run `yarn start` and access `http://localhost:3000`.<br />
+2. Run `npm start` and access `http://localhost:3000`.<br />
 
 ## Finalidade
 
