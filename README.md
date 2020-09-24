@@ -19,4 +19,4 @@ Projeto criado com react com o intuido de aprender efeito de carregamento "Shimm
 
 ## Result
 
-https://heuristic-mestorf-0221bc.netlify.app/
+https://ui-clone-likendin.netlify.app
